@@ -1,8 +1,10 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 let accountBalnce = 10000;
-const accountNumber = "12345";
+const accountNumber = "1234567890";
 console.log("Welcome to Meezan Bank ATM!");
+console.log("Hello Malik Hunain,\nYour Account Number: " + accountNumber);
+console.log("Here Is Your Account Balance: " + accountBalnce);
 let userInput = await inquirer.prompt([
     {
         name: "id",

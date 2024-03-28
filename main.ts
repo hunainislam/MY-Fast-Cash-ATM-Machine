@@ -3,9 +3,11 @@
 import inquirer from "inquirer";
 
 let accountBalnce: number = 10000;
-const accountNumber: string = "12345";
+const accountNumber: string = "1234567890";
 
 console.log("Welcome to Meezan Bank ATM!");
+console.log("Hello Malik Hunain,\nYour Account Number: " + accountNumber);
+console.log("Here Is Your Account Balance: " + accountBalnce);
 
 let userInput = await inquirer.prompt([
     {
